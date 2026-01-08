@@ -159,6 +159,7 @@
     background-size: 200% 200%;
     color: white;
     box-shadow: var(--shadow-gold);
+    z-index: 10;
   }
 
   .btn-luxury::before {
@@ -166,6 +167,7 @@
     @apply absolute inset-0 opacity-0 transition-all duration-500;
     background: linear-gradient(135deg, hsl(var(--gold-glow)) 0%, hsl(var(--gold-light)) 50%, hsl(var(--gold-glow)) 100%);
     background-size: 200% 200%;
+    z-index: -1;
   }
 
   .btn-luxury:hover::before {
@@ -180,7 +182,7 @@
   }
 
   .btn-luxury span {
-    @apply relative z-10;
+    @apply relative z-20;
   }
 
   /* Enhanced glass button */

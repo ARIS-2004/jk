@@ -42,9 +42,9 @@ const CTASection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap justify-center gap-3 mb-6">
-            <a href="tel:+917003500350" className="btn-luxury flex items-center gap-2 px-6 py-3 text-sm">
+            <a href="tel:+919831683494" className="btn-luxury flex items-center gap-2 px-6 py-3 text-sm relative z-10">
               <Phone className="w-4 h-4" />
-              Call Now
+              <span className="relative z-10">Call Now</span>
             </a>
           </div>
 
@@ -52,15 +52,15 @@ const CTASection = () => {
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
               <Phone className="w-3 h-3 text-primary" />
-              <span>+91 70035 00350</span>
+              <span>+91 98316 83494</span>
             </div>
             <div className="flex items-center gap-1">
               <Mail className="w-3 h-3 text-primary" />
-              <span>info@jkinfrastructure.in</span>
+              <span>jkl.kolkata4@gmail.com</span>
             </div>
             <div className="flex items-center gap-1">
               <MapPin className="w-3 h-3 text-primary" />
-              <span>Kolkata, India</span>
+              <span>Premises No. 595 & 570, Plot No. AA IIB-1274, Kolkata - 700156</span>
             </div>
           </div>
         </div>
